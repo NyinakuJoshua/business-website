@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>My Portfolio</title>
+</head>
+<body>
+    
+<div class="main">
+    <div class="navbar">
+        <div class="nav">
+        <img src="./images/logo.jpeg " width="10%" class="logo">
+    </div>
+
+    <a href="#" class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+
+        <ul nav-links>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#my works">MY WORKS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+     <div class="info">
+    <H5>Hi,I'm <span>Joshua</span></H5>
+    <h1>W<span>E</span>B <span>D</span>ESIGNER</h1>
+    <h5>Web designer and developer from Kumasi,Ghana.I create <br> websites to help businesses do better online.</h5>
+
+    <a href="#">Hire Me</a>
+
+    <div class="icons">
+       <a href="#"><i class='bx bxl-facebook-circle'></i></a> 
+       <a href="#"><i class='bx bxl-instagram'></i></a> 
+       <a href="#"><i class='bx bxl-twitter'></i></a> 
+     
+    </div>
+</div>
+
+<div class="image">
+<img src="./images/6.png" class="josh" width="100%" height="140%">
+</div>
+
+
+</div>
+ 
+<script>
+   document.querySelector('.menu-toggle').addEventListener('click', function() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+});
+</script>
+</body>
+</html>
